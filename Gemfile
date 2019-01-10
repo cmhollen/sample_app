@@ -9,6 +9,8 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'jquery-rails'
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'faker',          '1.7.3'
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
 gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 # Use sqlite3 as the database for Active Record
@@ -64,6 +66,8 @@ group :test do
   gem 'chromedriver-helper'
   gem 'rails-controller-testing'
 end
+
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
